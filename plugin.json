@@ -2,9 +2,9 @@
   "name": "production-website-auditor",
   "version": "1.0.0",
   "description": "Audits an existing website for production readiness - SEO, accessibility, performance, security, legal, content trust, and more. Makes sites feel deliberately designed rather than AI-generated.",
-  "author": "",
+  "author": "Shreemeetnayak",
   "license": "MIT",
-  "repository": "https://github.com/yourusername/production-website-auditor",
+  "repository": "https://github.com/Shreemeetnayak/production-website-auditor",
   "keywords": ["audit", "production", "website", "seo", "accessibility", "performance", "security", "legal", "quality"],
   "entry": "bin/cli.js",
   "scripts": {

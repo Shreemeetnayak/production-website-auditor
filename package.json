@@ -24,7 +24,7 @@
     "security",
     "claude-code-plugin"
   ],
-  "author": "",
+  "author": "Shreemeetnayak",
   "license": "MIT",
   "engines": {
     "node": ">=18.0.0"
@@ -37,10 +37,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-org/production-website-auditor"
+    "url": "https://github.com/Shreemeetnayak/production-website-auditor"
   },
   "bugs": {
-    "url": "https://github.com/your-org/production-website-auditor/issues"
+    "url": "https://github.com/Shreemeetnayak/production-website-auditor/issues"
   },
-  "homepage": "https://github.com/your-org/production-website-auditor#readme"
+  "homepage": "https://github.com/Shreemeetnayak/production-website-auditor#readme"
 }
