@@ -1,0 +1,54 @@
+{
+  "name": "production-website-auditor",
+  "version": "1.0.0",
+  "description": "Audits an existing website for production readiness - SEO, accessibility, performance, security, legal, content trust, and more. Makes sites feel deliberately designed rather than AI-generated.",
+  "author": "",
+  "license": "MIT",
+  "repository": "https://github.com/yourusername/production-website-auditor",
+  "keywords": ["audit", "production", "website", "seo", "accessibility", "performance", "security", "legal", "quality"],
+  "entry": "bin/cli.js",
+  "scripts": {
+    "audit": "node scripts/audit.js",
+    "verify": "node scripts/verify.js",
+    "pre-build": "node scripts/pre-build.js",
+    "post-build": "node scripts/post-build.js"
+  },
+  "hooks": {
+    "pre-build": "node scripts/pre-build.js",
+    "post-build": "node scripts/post-build.js"
+  },
+  "categories": [
+    "routing",
+    "seo",
+    "structuredData",
+    "images",
+    "accessibility",
+    "forms",
+    "payments",
+    "api",
+    "apiLimits",
+    "analytics",
+    "thirdParty",
+    "legal",
+    "contentTrust",
+    "mobile",
+    "errors",
+    "performance",
+    "security",
+    "codeQuality"
+  ],
+  "config": {
+    "projectRoot": ".",
+    "fixMode": false,
+    "singleCategory": null,
+    "jsonOutput": false
+  },
+  "marketplace": {
+    "featured": false,
+    "verified": false,
+    "minClaudeCodeVersion": "1.0.0",
+    "supportedPlatforms": ["win32", "darwin", "linux"],
+    "screenshots": [],
+    "changelog": "CHANGELOG.md"
+  }
+}
