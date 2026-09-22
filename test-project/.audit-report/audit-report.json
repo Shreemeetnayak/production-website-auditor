@@ -1,0 +1,236 @@
+{
+  "timestamp": "2026-09-22T09:00:55.977Z",
+  "projectRoot": "test-project",
+  "fixMode": false,
+  "categories": [
+    {
+      "name": "routing",
+      "status": "flagged",
+      "issues": 1,
+      "htmlFiles": 2
+    },
+    {
+      "name": "seo",
+      "status": "flagged",
+      "issues": 15,
+      "htmlFiles": 2
+    },
+    {
+      "name": "structuredData",
+      "status": "flagged",
+      "issues": 1,
+      "htmlFiles": 2
+    },
+    {
+      "name": "images",
+      "status": "pass",
+      "issues": 0,
+      "htmlFiles": 2
+    },
+    {
+      "name": "accessibility",
+      "status": "flagged",
+      "issues": 3,
+      "htmlFiles": 2
+    },
+    {
+      "name": "forms",
+      "status": "pass",
+      "issues": 0,
+      "htmlFiles": 2
+    },
+    {
+      "name": "payments",
+      "status": "pass",
+      "issues": 0,
+      "htmlFiles": 2
+    },
+    {
+      "name": "api",
+      "status": "pass",
+      "issues": 0,
+      "htmlFiles": 2
+    },
+    {
+      "name": "apiLimits",
+      "status": "pass",
+      "issues": 0,
+      "htmlFiles": 2
+    },
+    {
+      "name": "analytics",
+      "status": "pass",
+      "issues": 0,
+      "htmlFiles": 2
+    },
+    {
+      "name": "thirdParty",
+      "status": "pass",
+      "issues": 0,
+      "htmlFiles": 2
+    },
+    {
+      "name": "legal",
+      "status": "flagged",
+      "issues": 3,
+      "htmlFiles": 2
+    },
+    {
+      "name": "contentTrust",
+      "status": "pass",
+      "issues": 0,
+      "htmlFiles": 2
+    },
+    {
+      "name": "mobile",
+      "status": "flagged",
+      "issues": 4,
+      "htmlFiles": 2
+    },
+    {
+      "name": "errors",
+      "status": "pass",
+      "issues": 0,
+      "htmlFiles": 2
+    },
+    {
+      "name": "performance",
+      "status": "flagged",
+      "issues": 1,
+      "htmlFiles": 2
+    },
+    {
+      "name": "security",
+      "status": "pass",
+      "issues": 0,
+      "htmlFiles": 2
+    },
+    {
+      "name": "codeQuality",
+      "status": "pass",
+      "issues": 0,
+      "htmlFiles": 2
+    }
+  ],
+  "fixed": [],
+  "flagged": [
+    {
+      "category": "routing",
+      "message": "2 HTML file(s) missing <title>"
+    },
+    {
+      "category": "seo",
+      "message": "Missing <title> in 404.html"
+    },
+    {
+      "category": "seo",
+      "message": "Missing meta description in 404.html"
+    },
+    {
+      "category": "seo",
+      "message": "Missing canonical URL in 404.html"
+    },
+    {
+      "category": "seo",
+      "message": "Missing Open Graph tags in 404.html"
+    },
+    {
+      "category": "seo",
+      "message": "Missing Twitter/X card tags in 404.html"
+    },
+    {
+      "category": "seo",
+      "message": "Missing <title> in index.html"
+    },
+    {
+      "category": "seo",
+      "message": "Missing meta description in index.html"
+    },
+    {
+      "category": "seo",
+      "message": "Missing canonical URL in index.html"
+    },
+    {
+      "category": "seo",
+      "message": "Missing Open Graph tags in index.html"
+    },
+    {
+      "category": "seo",
+      "message": "Missing Twitter/X card tags in index.html"
+    },
+    {
+      "category": "seo",
+      "message": "Missing robots.txt"
+    },
+    {
+      "category": "seo",
+      "message": "Missing sitemap.xml"
+    },
+    {
+      "category": "seo",
+      "message": "Missing llms.txt (optional but recommended for AI crawlers)"
+    },
+    {
+      "category": "seo",
+      "message": "Missing lang attribute on <html> in 404.html"
+    },
+    {
+      "category": "seo",
+      "message": "Missing lang attribute on <html> in index.html"
+    },
+    {
+      "category": "structuredData",
+      "message": "No JSON-LD structured data found on any page"
+    },
+    {
+      "category": "accessibility",
+      "message": "No :focus or :focus-visible styles in style.css"
+    },
+    {
+      "category": "accessibility",
+      "message": "No H1 found in 404.html"
+    },
+    {
+      "category": "accessibility",
+      "message": "No H1 found in index.html"
+    },
+    {
+      "category": "legal",
+      "message": "Missing privacy policy page"
+    },
+    {
+      "category": "legal",
+      "message": "Missing terms policy page"
+    },
+    {
+      "category": "legal",
+      "message": "Missing cookie policy page"
+    },
+    {
+      "category": "mobile",
+      "message": "Missing viewport meta in 404.html"
+    },
+    {
+      "category": "mobile",
+      "message": "Viewport missing width=device-width in 404.html"
+    },
+    {
+      "category": "mobile",
+      "message": "Missing viewport meta in index.html"
+    },
+    {
+      "category": "mobile",
+      "message": "Viewport missing width=device-width in index.html"
+    },
+    {
+      "category": "performance",
+      "message": "No framework detected - verify if all deps are needed"
+    }
+  ],
+  "notChanged": [],
+  "summary": {
+    "fixed": 0,
+    "flagged": 28,
+    "notChanged": 0
+  }
+}

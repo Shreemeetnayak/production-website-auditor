@@ -1,0 +1,46 @@
+{
+  "name": "production-website-auditor",
+  "version": "1.0.0",
+  "description": "Production-readiness audit tool for web applications. Checks 33 dimensions across SEO, accessibility, performance, security, legal compliance, and content quality.",
+  "main": "bin/cli.js",
+  "bin": {
+    "production-website-auditor": "bin/cli.js"
+  },
+  "scripts": {
+    "audit": "node scripts/audit.js",
+    "verify": "node scripts/verify.js",
+    "prebuild": "node scripts/pre-build.js",
+    "postbuild": "node scripts/post-build.js",
+    "test": "node --test scripts/*.test.js",
+    "prepare": "chmod +x bin/cli.js scripts/*.js"
+  },
+  "keywords": [
+    "audit",
+    "production",
+    "website",
+    "seo",
+    "accessibility",
+    "performance",
+    "security",
+    "claude-code-plugin"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "bin",
+    "scripts",
+    "README.md",
+    "plugin.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/production-website-auditor"
+  },
+  "bugs": {
+    "url": "https://github.com/your-org/production-website-auditor/issues"
+  },
+  "homepage": "https://github.com/your-org/production-website-auditor#readme"
+}
