@@ -1,0 +1,268 @@
+{
+  "timestamp": "2026-09-22T09:59:45.676Z",
+  "projectRoot": "C:\\Users\\KIIT0001\\Desktop\\production-website-auditor",
+  "fixMode": false,
+  "categories": [
+    {
+      "name": "routing",
+      "status": "flagged",
+      "issues": 1,
+      "htmlFiles": 2
+    },
+    {
+      "name": "seo",
+      "status": "flagged",
+      "issues": 15,
+      "htmlFiles": 2
+    },
+    {
+      "name": "structuredData",
+      "status": "flagged",
+      "issues": 1,
+      "htmlFiles": 2
+    },
+    {
+      "name": "images",
+      "status": "pass",
+      "issues": 0,
+      "htmlFiles": 2
+    },
+    {
+      "name": "accessibility",
+      "status": "flagged",
+      "issues": 3,
+      "htmlFiles": 2
+    },
+    {
+      "name": "forms",
+      "status": "pass",
+      "issues": 0,
+      "htmlFiles": 2
+    },
+    {
+      "name": "payments",
+      "status": "flagged",
+      "issues": 1,
+      "htmlFiles": 2
+    },
+    {
+      "name": "api",
+      "status": "pass",
+      "issues": 0,
+      "htmlFiles": 2
+    },
+    {
+      "name": "apiLimits",
+      "status": "pass",
+      "issues": 0,
+      "htmlFiles": 2
+    },
+    {
+      "name": "analytics",
+      "status": "pass",
+      "issues": 0,
+      "htmlFiles": 2
+    },
+    {
+      "name": "thirdParty",
+      "status": "flagged",
+      "issues": 1,
+      "htmlFiles": 2
+    },
+    {
+      "name": "legal",
+      "status": "flagged",
+      "issues": 3,
+      "htmlFiles": 2
+    },
+    {
+      "name": "contentTrust",
+      "status": "pass",
+      "issues": 0,
+      "htmlFiles": 2
+    },
+    {
+      "name": "mobile",
+      "status": "flagged",
+      "issues": 4,
+      "htmlFiles": 2
+    },
+    {
+      "name": "errors",
+      "status": "pass",
+      "issues": 0,
+      "htmlFiles": 2
+    },
+    {
+      "name": "performance",
+      "status": "flagged",
+      "issues": 1,
+      "htmlFiles": 2
+    },
+    {
+      "name": "security",
+      "status": "pass",
+      "issues": 0,
+      "htmlFiles": 2
+    },
+    {
+      "name": "codeQuality",
+      "status": "flagged",
+      "issues": 6,
+      "htmlFiles": 2
+    }
+  ],
+  "fixed": [],
+  "flagged": [
+    {
+      "category": "routing",
+      "message": "2 HTML file(s) missing <title>"
+    },
+    {
+      "category": "seo",
+      "message": "Missing <title> in test-project\\404.html"
+    },
+    {
+      "category": "seo",
+      "message": "Missing meta description in test-project\\404.html"
+    },
+    {
+      "category": "seo",
+      "message": "Missing canonical URL in test-project\\404.html"
+    },
+    {
+      "category": "seo",
+      "message": "Missing Open Graph tags in test-project\\404.html"
+    },
+    {
+      "category": "seo",
+      "message": "Missing Twitter/X card tags in test-project\\404.html"
+    },
+    {
+      "category": "seo",
+      "message": "Missing <title> in test-project\\index.html"
+    },
+    {
+      "category": "seo",
+      "message": "Missing meta description in test-project\\index.html"
+    },
+    {
+      "category": "seo",
+      "message": "Missing canonical URL in test-project\\index.html"
+    },
+    {
+      "category": "seo",
+      "message": "Missing Open Graph tags in test-project\\index.html"
+    },
+    {
+      "category": "seo",
+      "message": "Missing Twitter/X card tags in test-project\\index.html"
+    },
+    {
+      "category": "seo",
+      "message": "Missing robots.txt"
+    },
+    {
+      "category": "seo",
+      "message": "Missing sitemap.xml"
+    },
+    {
+      "category": "seo",
+      "message": "Missing llms.txt (optional but recommended for AI crawlers)"
+    },
+    {
+      "category": "seo",
+      "message": "Missing lang attribute on <html> in test-project\\404.html"
+    },
+    {
+      "category": "seo",
+      "message": "Missing lang attribute on <html> in test-project\\index.html"
+    },
+    {
+      "category": "structuredData",
+      "message": "No JSON-LD structured data found on any page"
+    },
+    {
+      "category": "accessibility",
+      "message": "No :focus or :focus-visible styles in test-project\\style.css"
+    },
+    {
+      "category": "accessibility",
+      "message": "No H1 found in test-project\\404.html"
+    },
+    {
+      "category": "accessibility",
+      "message": "No H1 found in test-project\\index.html"
+    },
+    {
+      "category": "payments",
+      "message": "Payment code in bin\\cli.js may lack duplicate submission prevention"
+    },
+    {
+      "category": "thirdParty",
+      "message": "Third-party imports in scripts\\audit.js: maps.googleapis.com, youtube.com, vimeo.com, fonts.googleapis.com, fonts.gstatic.com, cdn.jsdelivr.net, unpkg.com"
+    },
+    {
+      "category": "legal",
+      "message": "Missing privacy policy page"
+    },
+    {
+      "category": "legal",
+      "message": "Missing terms policy page"
+    },
+    {
+      "category": "legal",
+      "message": "Missing cookie policy page"
+    },
+    {
+      "category": "mobile",
+      "message": "Missing viewport meta in test-project\\404.html"
+    },
+    {
+      "category": "mobile",
+      "message": "Viewport missing width=device-width in test-project\\404.html"
+    },
+    {
+      "category": "mobile",
+      "message": "Missing viewport meta in test-project\\index.html"
+    },
+    {
+      "category": "mobile",
+      "message": "Viewport missing width=device-width in test-project\\index.html"
+    },
+    {
+      "category": "performance",
+      "message": "No framework detected - verify if all deps are needed"
+    },
+    {
+      "category": "codeQuality",
+      "message": "1 console.log/debug/info in bin\\cli.js"
+    },
+    {
+      "category": "codeQuality",
+      "message": "2 console.log/debug/info in scripts\\audit.js"
+    },
+    {
+      "category": "codeQuality",
+      "message": "12 console.log/debug/info in scripts\\post-build.js"
+    },
+    {
+      "category": "codeQuality",
+      "message": "1 console.log/debug/info in scripts\\post-build.test.js"
+    },
+    {
+      "category": "codeQuality",
+      "message": "17 console.log/debug/info in scripts\\pre-build.js"
+    },
+    {
+      "category": "codeQuality",
+      "message": "11 console.log/debug/info in scripts\\verify.js"
+    }
+  ],
+  "notChanged": [],
+  "summary": {
+    "fixed": 0,
+    "flagged": 36,
+    "notChanged": 0
+  }
+}

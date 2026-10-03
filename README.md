@@ -24,12 +24,22 @@ This plugin performs a comprehensive audit across 17+ categories including:
 
 ## Installation
 
-1. Copy this entire `production-website-auditor` directory into your Claude Code plugins folder:
+1. Ensure your plugin folder structure is:
+   ```
+   production-website-auditor/
+   ├── .claude-plugin/
+   │   └── plugin.json
+   ├── bin/
+   ├── ...
+   ```
+   (The `.claude-plugin/plugin.json` manifest must be present for loading.)
+
+2. Copy the entire `production-website-auditor` directory into your Claude Code plugins folder:
    ```
    cp -r production-website-auditor ~/.claude/plugins/
    ```
 
-2. The plugin will be automatically available in Claude Code under the "Plugins" menu.
+3. The plugin will be automatically available in Claude Code. You can reload plugins using the plugin management menu if needed.
 
 ## Usage
 

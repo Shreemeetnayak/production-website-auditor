@@ -33,7 +33,7 @@
     "bin",
     "scripts",
     "README.md",
-    "plugin.json"
+    ".claude-plugin"
   ],
   "repository": {
     "type": "git",
